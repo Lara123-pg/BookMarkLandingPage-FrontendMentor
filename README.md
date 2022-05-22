@@ -23,8 +23,8 @@
 Clone o projeto em seu dispositivo e acesse a pasta do mesmo.
 
 ```
-$ git clone 
-$ cd 
+$ git clone https://github.com/Lara123-pg/BookMarkLandingPage-FrontendMentor.git
+$ cd BookMarkLandingPage-FrontendMentor
 $ code .  (Abrir o Visual Studio Code)
 ```
 
@@ -36,6 +36,8 @@ BookMark Landing Page é um desafio da plataforma FrontendMentor, que tem o obje
 
 # Link do projeto hospedado
 
+https://bookmarklandingpagefrontendmentor.surge.sh/
+
 # Autor
 
 Lara Fernanda
@@ -44,4 +46,4 @@ Email: lamorimalvescavalcante@gmail.com
 
 # Licença
 
-Este projeto está sob a licença MIT -
+Este projeto está sob a licença MIT - https://github.com/Lara123-pg/BookMarkLandingPage-FrontendMentor/blob/main/LICENSE
