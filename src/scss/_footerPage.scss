@@ -1,0 +1,40 @@
+footer {
+    @include Display(center, '', column);
+
+    background-color: $color1;
+
+    div.infoFooter {
+        @include Display('', space-around);
+        @include StyleWH(1280px);
+
+        background-color: $color1;
+
+        padding: 1.5em 0 1.5em 0;
+
+        div.linksLogo {
+            @include Display('', space-between);
+            @include StyleWH(460px);
+
+            .footerColor {
+                @include FontColor($color3);
+    
+                &:hover {
+                    @include FontColor($color2);
+                }
+            }
+        }
+
+        div.socialMedias {
+            @include Display('', space-between);
+            @include StyleWH(80px);
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    p a {
+        @include FontColor($color3, 1rem);
+    }
+}

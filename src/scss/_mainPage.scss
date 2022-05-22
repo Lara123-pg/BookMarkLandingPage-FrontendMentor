@@ -1,0 +1,393 @@
+main {
+    @include Display('', space-around, column);
+
+    padding-top: 2em;
+
+    div.infosPhoto {
+        @include Display('', space-around);
+
+        padding-bottom: 15em;
+
+        div.info {
+            @include Display(flex-start, space-around, column);
+            @include StyleWH(380px, 300px);
+
+            h1 {
+                @include StyleWH(500px);
+                @include FontColor($color1, 2.5rem);
+            }
+
+            p {
+                @include StyleWH(420px);
+                @include FontColor($color5, 1rem , 400);
+            }
+
+            div.buttons {
+                @include Display('', space-between);
+                @include StyleWH(300px);
+
+                button {
+                    @include StyleWH(140px, 40px);
+
+                    border: 0;
+                    border-radius: 5px;
+
+                    font-size: 0.7rem;
+                    font-weight: bold;
+                }
+
+                button.chrome {
+                    @include FontColor($color3);
+                    background-color: $color4;
+
+                    border: 1px solid $color4;
+
+                    &:hover {
+                        @include FontColor($color4);
+
+                        cursor: pointer;
+
+                        background-color: $color3;
+                    }
+                }
+
+                button.firefox {
+                    @include FontColor($color1);
+
+                    background-color: $color3;
+
+                    border: 1px solid $color3;
+
+                    box-shadow: 0 0 1em $color5;
+
+                    &:hover {
+                        cursor: pointer;
+
+                        border-color: $color1;
+                    }
+                }
+            }
+        }
+
+        img {
+            @include StyleWH(600px);
+
+            position: absolute;
+            right: 2px;
+            top: 95px;
+        }
+
+        div.bgInfo {
+            @include StyleWH(600px, 300px);
+
+            background-color: $color4;
+
+            position: relative;
+
+            z-index: -1;
+            border-radius: 120px;
+
+            top: 120px;
+            left: 250px;
+        }
+    }
+
+    div.links {
+        @include Display(center, space-between, column);
+
+        height: 100%;
+        
+        strong {
+            @include FontColor($color1, 1.5rem , bold);
+
+            padding-bottom: 1em;
+        }
+
+        p {
+            @include StyleWH(460px);
+            @include FontColor($color5, 1rem , 500);
+
+            text-align: center;
+
+            padding-bottom: 3em;
+        }
+
+        div.optionsTab {
+            @include Display('', space-between);
+            @include StyleWH(600px);
+
+            border-bottom: 1px solid $color5;
+
+            margin-bottom: 1em;
+
+            button {
+                @include StyleWH(185px);
+                @include FontColor($color5, 0.9rem , 400);
+
+                border: 0;
+
+                background-color: $color3;
+
+                padding: 0.2em;
+
+                &:hover {
+                    @include FontColor($color2);
+
+                    cursor: pointer;
+                }
+            }
+
+            button.selectedOption {
+                @include FontColor($color1, '' , bold);
+
+                border-bottom: 3px solid $color2;
+            }
+
+            button.unselectedOption {
+                @include FontColor($color5);
+
+                border-bottom: 1px solid $color5;
+            }
+        }
+    }
+
+    div.browsers {
+        @include Display('', '', column);
+        
+        height: 100%;
+     
+        strong {
+            @include FontColor($color1, 1.6rem , bold);
+
+            text-align: center;
+
+            padding: 5em 0 1.2em 0;
+        }
+
+        p {
+            @include StyleWH(490px);
+            @include FontColor($color5, 1rem , 400);
+  
+            align-self: center;
+
+            text-align: center;
+
+            padding-bottom: 3em;
+        }
+
+        div.infoBrowsers {
+            @include Display(center, space-around);
+            @include StyleWH(890px, 400px);
+
+            align-self: center;
+
+            div.chromeBrowser {
+                align-self: flex-start;
+            }
+
+            div.operaBrowser {
+                align-self: flex-end;
+            }
+
+            div.chromeBrowser, .firefoxBrowser, .operaBrowser {
+                @include Display(center, space-around, column);
+                @include StyleWH(250px, 320px);
+
+                box-shadow: 0 0 1em $color5;
+                border-radius: 5px;
+
+                padding: 1em;
+
+                strong {
+                    @include FontColor($color1, 1.2rem , bold);
+
+                    padding-top: 1em;
+                    padding-bottom: 0.4em;
+                }
+
+                p {
+                    @include FontColor($color5, 0.8rem , 500);
+                }
+
+                img.photos {
+                    @include StyleWH(90px, 90px);
+                }
+
+                img {
+                    @include StyleWH(250px);
+                }
+
+                div.buttonE {
+                    @include Display(center, space-between, column);
+
+                    height: 80px;
+                }
+            }
+        }
+    }
+
+    div.faq {
+        @include Display(center, '', column);
+    
+        margin-top: 10em;
+
+        strong {
+            @include FontColor($color1, 1.7rem , bold);
+
+            padding-bottom: 1em;
+        }
+
+        p {
+            @include StyleWH(450px);
+            @include FontColor($color5, 1rem , 500);
+    
+            text-align: center;
+    
+            padding-bottom: 2.2em;
+        }
+
+        div.faqs {
+            div {
+                div.title {
+                    @include Display('', space-between);
+                    @include StyleWH(450px, 48px);
+
+                    border-top: 1px solid $color5;
+
+                    strong {
+                        @include FontColor($color1, 1rem , 500);
+
+                        align-self: flex-end;
+
+                        &:hover {
+                            @include FontColor($color2);
+
+                            cursor: pointer;
+                        }
+                    }
+
+                    img.arrowUp {
+                        transform: rotate(180deg);    
+                    }
+
+                    img.arrowDown, .arrowUp {
+                        @include StyleWH(15px, 10px);
+
+                        align-self: center;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                p {
+                    @include FontColor($color5, 0.9rem , 500);
+
+                    text-align: start;
+
+                    line-height: 27px;
+                }
+            }
+
+            div.question4 {
+                div.title.borderTitle {
+                    border-bottom: 1px solid $color5;
+
+                    margin-bottom: 10%;
+                }
+
+                p.openResponse {
+                    border-bottom: 1px solid $color5;
+
+                    margin-bottom: 10%;
+                }
+            }
+        }
+    }
+
+    div.contact {
+        @include Display(center, '', column);
+        @include StyleWH(1280px, 280px);
+
+        background-color: $color4;
+
+        margin-top: 7em;
+
+        p {
+            @include FontColor($color3, 0.8rem , bold);
+    
+            letter-spacing: 4px;
+
+            padding: 4em 0 2em 0;
+        }
+
+        strong {
+            @include StyleWH(300px);
+            @include FontColor($color3, 1.5rem , bold);
+    
+            text-align: center;
+
+            padding: 0 0 2em 0;
+        }
+
+        div.input {
+            @include Display('', space-between);
+            @include StyleWH(385px, 200px);
+
+            div.inputError {
+                @include Display('', '', column);
+
+                input {
+                    @include StyleWH(270px, 35px);
+
+                    border: 1px solid $color3;
+
+                    &::placeholder {
+                        @include FontColor($color5, 0.8rem);
+                        
+                        padding-left: 1em;
+
+                        opacity: 0.7;
+                    }
+                }  
+                
+                input.errorInput {
+                    border-color: $color2;
+
+                    background-image: url('../assets/icon-error.svg');
+                    background-repeat: no-repeat;
+                    background-position: 96%;
+                }
+
+                span.error {
+                    @include FontColor($color3, 0.7rem , bold);
+              
+                    background-color: $color2;
+
+                    height: 23px;
+
+                    padding: 0.5em 0 0 1em;
+                }
+            }
+
+            button {
+                @include StyleWH(100px, 35px);
+                @include FontColor($color3, 0.7rem);
+
+                background-color: $color2;
+
+                border-radius: 2px;
+
+                &:hover {
+                    @include StyleWH(104px);
+                    @include FontColor($color2);
+
+                    border: 2px solid $color2;
+
+                    background-color: $color3;
+                }
+            }
+        }
+    }
+}

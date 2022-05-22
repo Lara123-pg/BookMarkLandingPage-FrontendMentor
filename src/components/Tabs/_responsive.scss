@@ -1,0 +1,156 @@
+@media(max-width: 1150px) {
+    div.container {
+        main {
+            div.tabs {
+                div.bgTabs {
+                    right: 320px;
+                }
+
+                img {
+                    left: 30px;
+                }
+
+                div.infos {
+                    margin-right: 10em;
+
+                    p {
+                        font-size: 0.9rem;
+                    }
+
+                    p#pTab1, p#pTab2, p#pTab3 {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1058px) {
+    div.container {
+        main {
+            div.tabs {
+                div.bgTabs {
+                    margin-left: 10em;
+                }
+
+                div.infos {
+                    margin-right: 30em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 950px) {
+    div.container {
+        main {
+            div.tabs {
+                div.bgTabs {
+                    height: 250px;
+                }
+
+                img {
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 812px) {
+    div.container {
+        main {
+            div.tabs {
+                div.infos {
+                    margin-right: 81em;
+                }
+
+                div.bgTabs {
+                    height: 200px;
+
+                    margin-left: 55em;
+                }
+
+                img {
+                    width: 310px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 770px) {
+    div.container {
+        main {
+            div.tabs {
+                flex-direction: column;
+                align-items: center;
+
+                div.bgTabs {
+                    width: 800px;
+
+                    margin-right: 75em;
+                    margin-bottom: -2em;
+                }
+
+                img {
+                    width: 400px;
+
+                    margin-bottom: -10em;
+                }
+
+                div.infos {
+                    margin-left: 80em;
+                    margin-bottom: -10em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 735px) {
+    div.container {
+        main {
+            div.tabs {
+                div.bgTabs {
+                    margin-bottom: -15em;
+                    margin-right: 60em;
+                }
+
+                img {
+                    margin-bottom: -16em;
+                    margin-left: 9em;
+                }
+
+                div.infos {
+                    margin-bottom: -20em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 611px) {
+    div.container {
+        main {
+            div.tabs {
+                img {
+                    margin-left: 5em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 535px) {
+    div.container {
+        main {
+            div.tabs {
+                img {
+                    margin-left: 2em;
+                }
+            }
+        }
+    }
+}

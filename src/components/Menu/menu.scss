@@ -1,0 +1,20 @@
+@import '../../scss/variables.scss';
+
+nav {
+    ul {
+        list-style: none;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li a {
+            padding: 1em;
+
+            font-size: 0.8rem;
+            font-weight: 500;
+
+            text-decoration: none;
+        }
+    }
+}

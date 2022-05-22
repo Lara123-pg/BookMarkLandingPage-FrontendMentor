@@ -1,0 +1,147 @@
+header {
+    @include Display(center, space-between);
+    @include StyleWH(88%, 20%);
+
+    background-color: $color3;
+
+    img {
+        @include StyleWH(170px, 30px);
+    }
+
+    div.linksButton {
+        @include Display(center, space-between);
+        @include StyleWH(400px, 70px);
+ 
+        .headerColor{
+            @include FontColor($color1);
+
+            &:hover {
+                @include FontColor($color2);
+
+                cursor: pointer;
+            }
+        }
+    
+        button {
+            @include StyleWH(100px);
+            @include FontColor($color3, '' , bold);
+
+            border: 2px solid $color2;
+            border-radius: 10px;
+
+            background-color: $color2;
+
+            padding: 1em;
+
+            &:hover {
+                @include FontColor($color2);
+
+                cursor: pointer;
+
+                background-color: $color3;
+            }
+        }
+    }
+
+    img.hiddenMainMenu {
+        visibility: hidden;
+    }
+
+    label.hamburgerButton {
+        visibility: hidden;
+        position: absolute;
+
+        img {
+            width: 18px;
+            height: 15px;
+        }
+
+        img.hiddenMainMenu {
+            visibility: hidden;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    div.styleMenu {
+        @include Display(center, '', column);
+        @include StyleWH(670px, 622px);
+
+        background-color: $color1;
+
+        z-index: 1;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        opacity: 0.8;
+
+        div.logoButton {
+            @include Display(center, space-between);
+            @include StyleWH(650px, 70px);
+     
+            padding: 0 2em 0 2em;
+
+            img.close {
+                @include StyleWH(16px, 15px);
+
+                cursor: pointer;
+            }
+        }
+
+        div.linksButtonResponsive {
+            @include Display(center, space-around, column);
+
+            height: 470px;
+
+            nav {
+                ul {
+                    flex-direction: column;
+                    justify-content: space-between;
+                  
+                    height: 150px;
+
+                    li a {
+                        color: $color3;
+
+                        font-size: 1.4rem;
+
+                        border-bottom: 1px solid $color5;
+
+                        padding-left: 2em;
+                        padding-right: 2em;
+                    }
+
+                    li a#link1 {
+                        border-top: 1px solid $color5;
+                    }
+                }
+            }
+
+            button {
+                width: 300px;
+
+                background-color: $color1;
+
+                font-weight: bold;
+                font-size: 1.3rem;
+
+                padding-bottom: 2em;
+
+                border: 2px solid $color3
+            }
+        }
+
+        div.socialMediasResponsive {
+            @include Display(center, space-around);
+            @include StyleWH(200px);
+
+            img {
+                @include StyleWH(25px, 25px);
+            }
+        }
+    }
+}

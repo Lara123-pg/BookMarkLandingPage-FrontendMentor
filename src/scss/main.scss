@@ -1,0 +1,16 @@
+@import 'global';
+@import 'variables';
+@import 'display';
+@import 'styleWH';
+@import 'fontColor';
+
+div.container {
+    @include Display(center, '', column);
+    @include StyleWH(1280px, 100vh);
+
+    @import 'headerPage';
+    @import 'mainPage';
+    @import 'footerPage';
+}
+
+@import 'responsive';

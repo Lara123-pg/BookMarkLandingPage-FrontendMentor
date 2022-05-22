@@ -1,0 +1,7 @@
+@mixin StyleWH($width, $height: '') {
+    width: $width;
+
+    @if $height != '' {
+        height: $height
+    }
+}

@@ -1,0 +1,19 @@
+@import '../../scss/variables.scss';
+
+button.extension {
+    background-color: $color4;
+
+    color: $color3;
+
+    border: 1px solid $color4;
+    border-radius: 5px;
+
+    width: 210px;
+    height: 40px;
+
+    &:hover {
+        background-color: $color3;
+
+        color: $color4;
+    }
+}

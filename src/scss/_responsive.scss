@@ -1,0 +1,683 @@
+@media(max-width: 1260px) {
+    div.container {
+        main {
+            div.links {
+                margin-right: 5em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1225px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 3em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1198px) {
+    div.container {
+        main {
+            div.infosPhoto {
+                div.bgInfo {
+                    margin-right: 4em;
+                }
+            }
+
+            div.links {
+                margin-right: 8em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1170px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 6em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1150px) {
+    div.container {
+        main {
+            div.browsers {
+                margin-right: 5em;
+
+                div.infoBrowsers {
+                    margin-right: 5em;
+                }
+            }
+
+            div.faq {
+                margin-right: 5em;
+            }
+        }
+    }
+}
+
+@media(max-width: 1120px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 10em;
+            }
+        }
+
+        main {
+            div.infosPhoto {
+                div.info {
+                    margin-left: 5em;
+                }
+
+                div.bgInfo {
+                    margin-right: 10em;
+                }
+            }
+
+            div.contact {
+                margin-right: 9em;
+            }
+        }
+
+        footer {
+            margin-right: 6em;
+        }
+    }
+}
+
+@media(max-width: 1058px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 13em;
+            }
+        }
+
+        main {
+            div.infosPhoto {
+                div.info {
+                    margin-left: 18em;
+
+                    h1 {
+                        font-size: 2rem;
+                        
+                        width: 400px;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+
+                        width: 300px;
+                    }
+
+                }
+
+                img {
+                    width: 560px;
+                }
+
+                div.bgInfo {
+                    margin-right: 23em;
+                }
+            }
+
+            div.browsers {
+                margin-right: 10em;
+            }
+
+            div.faq {
+                margin-right: 10em;
+            }
+
+            div.contact {
+                width: 1380px;
+
+                margin-left: 7em;
+            }
+        }
+
+        footer {
+            margin-right: 10em;
+        }
+    }
+}
+
+@media(max-width: 1030px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 15em;
+            }
+        }
+
+        footer {
+            margin-right: 16em;
+        }
+    }
+}
+
+@media(max-width: 970px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 18em;
+            }
+        }
+
+        main {
+            div.browsers {
+                margin-right: 15em;
+            }
+
+            div.faq {
+                margin-right: 15em;
+            }
+        }
+
+        footer {
+            margin-right: 18em;
+        }
+    }
+}
+
+@media(max-width: 950px) {
+    div.container {
+        main {
+            div.infosPhoto {
+                div.info {
+                    margin-left: 25em;
+                }
+
+                div.bgInfo {
+                    height: 200px;
+
+                    margin-right: 35em;
+                }
+
+                img {
+                    width: 450px;
+                }
+            }
+
+            div.links {
+                margin-right: 15em;
+            }
+
+            div.faq {
+                margin-right: 19em;
+            }
+        }
+
+        footer {
+            margin-right: 10em;
+
+            div.socialMedias {
+                margin-right: 10em;
+            }
+        }
+    }
+}
+
+@media(max-width: 900px) {
+    div.container {
+        header {
+            margin-right: 5em;
+        }
+
+        main {
+            div.browsers {
+                margin-right: 18em;
+
+                div.infoBrowsers {
+                    @include StyleWH(250px, 1100px);
+
+                    flex-direction: column;
+
+                    margin: 3em 0 0 1em;
+
+                    div.chromeBrowser, div.operaBrowser {
+                        align-self: center;
+                    }
+                }
+            }
+        }
+
+        footer {
+            div.infoFooter {
+                flex-direction: column;
+                align-items: center;
+
+                div.linksLogo {
+                    flex-direction: column;
+                    align-items: center; 
+
+                    img {
+                        margin-right: 10em;
+
+                        padding-bottom: 2em;
+                    }
+
+                    nav ul {
+                        flex-direction: column;
+
+                        margin-right: 10em;
+
+                        padding-bottom: 2em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 860px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 21em;
+            }
+        }
+
+        main {
+            div.links {
+                margin-right: 22em;
+            }
+        }
+    }
+}
+
+@media(max-width: 812px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 23em;
+            }
+        }
+
+        main {
+            div.infosPhoto {
+                div.info {
+                    margin-left: 78em;
+                }
+
+                img {
+                    width: 380px;
+
+                    margin-right: -1em;
+                }
+
+                div.bgInfo {
+                    margin-right: 90em;
+                }
+            }
+
+            div.browsers {
+                margin-right: 25em;
+            }
+
+            div.faq {
+                margin-right: 28em;
+            }
+
+            div.contact {
+                width: 1900px;
+
+                margin-left: 46em;
+            }
+        }
+
+        footer {
+            margin-right: 20em;
+        }
+    }
+}
+
+@media(max-width: 770px) {
+    div.container {
+        main {
+            div.infosPhoto {
+                flex-direction: column;
+
+                div.info {
+                    order: 2;
+                }
+
+                img {
+                    order: 1;
+
+                    width: 500px;
+                }
+
+                div.bgInfo {
+                    order: 1;
+
+                    margin-bottom: 10em;
+                    margin-left: 80em;
+                    
+                    width: 700px;
+
+                    align-self: flex-end;
+                }
+            }
+
+            div.links {
+                margin-top: -10em;
+
+                margin-right: 25em;
+            }
+
+            div.browsers {
+                margin-top: 12em;
+            }
+
+            div.contact {
+                margin-left: 38em;
+            }
+        }
+    }
+}
+
+@media(max-width: 762px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 25em;
+            }
+        }
+    }
+}
+
+@media(max-width: 735px) {
+    div.container {
+        main {
+            div.links {
+                div.optionsTab {
+                    flex-direction: column;
+
+                    align-items: center;
+
+                    border: 0;
+
+                    button {
+                        width: 300px;
+
+                        border-bottom: 1px solid $color5;
+                    }
+                    
+                }
+            }
+
+            div.browsers {
+                margin-right: 30em;
+            }
+
+            div.contact {
+                height: 350px;
+
+                div.input {
+                    flex-direction: column;
+
+                    margin-left: 5em;
+
+                    span.error {
+                        @include StyleWH(270px);
+                    }
+
+                    button {
+                        @include StyleWH(270px);
+
+                        margin-bottom: 2em;
+
+                        &:hover {
+                            @include StyleWH(270px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 725px) {
+    div.container {
+        header {
+            div.linksButton {
+                margin-right: 27em;
+            }
+        }
+    }
+}
+
+@media(max-width: 698px) {
+    div.container {
+        main {
+            div.links {
+                margin-right: 30em;
+            }
+
+            div.browsers {
+                margin-right: 33em;
+            }
+
+            div.faq {
+                margin-right: 35em;
+            }
+
+            div.contact {
+                margin-left: 37em;
+            }
+        }
+
+        footer {
+            margin-right: 24em;
+        }
+    }
+}
+
+@media(max-width: 685px) {
+    div.container {
+        header {
+            div.linksButton {
+                visibility: hidden;
+            }
+
+            label.hamburgerButton {
+                visibility: visible;
+                
+                margin-left: 32em;
+            }
+        }
+    }
+}
+
+@media(max-width: 650px) {
+    div.container {
+        header {
+            label.hamburgerButton {
+                margin-left: 30em;
+            }
+        }
+
+        main {
+            div.links {
+                margin-right: 35em;
+            }
+
+            div.contact {
+                margin-left: 33em;
+            }
+        }
+
+        footer {
+            margin-right: 30em;
+        }
+    }
+}
+
+@media(max-width: 645px) {
+    div.container {
+        header {
+            div.styleMenu {
+                div.logoButton {
+                    width: 550px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 611px) {
+    div.container {
+        header {
+            label.hamburgerButton {
+                margin-left: 28em;
+            }
+        }
+
+        main {
+            div.links {
+                margin-right: 35em;
+            }
+
+            div.browsers {
+                margin-right: 38em;
+            }
+
+            div.faq {
+                margin-right: 38em;
+            }
+
+            div.contact {
+                margin-left: 34em;
+            }
+        }
+
+        footer {
+            margin-right: 33em;
+        }
+    }
+}
+
+@media(max-width: 593px) {
+    div.container {
+        header {
+            div.styleMenu {
+                div.logoButton {
+                    width: 510px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    div.container {
+        header {
+            label.hamburgerButton {
+                margin-left: 25em;
+            }
+
+            div.styleMenu {
+                div.logoButton {
+                    width: 500px;
+
+                    margin-right: 7em;
+                }
+            }
+        }
+
+        main {
+            div.bgInfo {
+                width: 900px;
+                
+            }
+        }
+
+        footer {
+            margin-right: 39em;
+        }
+    }
+}
+
+@media(max-width: 565px) {
+    div.container {
+        main {
+            div.infosPhoto {
+                div.bgInfo {
+                    width: 900px;
+
+                    align-self: center;
+                }
+            }
+
+            div.links {
+                margin-right: 40em;
+            }
+        }
+    }
+}
+
+@media(max-width: 535px) {
+    div.container {
+        main {
+            div.browsers {
+                margin-right: 42em;
+            }
+            
+            div.faq {
+                margin-right: 42em;
+            }
+        }
+    }
+}
+
+@media(max-width: 520px) {
+    div.container {
+        header {
+            label.hamburgerButton {
+                margin-left: 23em;
+            }
+
+            div.styleMenu {
+                div.logoButton {
+                    margin-left: -5em;
+                }
+
+                div.linksButtonResponsive, div.socialMediasResponsive{
+                    margin-left: -10em;
+                }
+            }
+        }
+
+        main {
+            div.links {
+                margin-right: 44em;
+            }
+
+            div.browsers {
+                margin-right: 45em;
+            }
+        }
+
+        footer {
+            margin-right: 41em;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    div.container {
+        main {
+            div.faq {
+                margin-right: 45em;
+            }
+        }
+    }
+}
