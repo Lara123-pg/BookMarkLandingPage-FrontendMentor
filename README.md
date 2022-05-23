@@ -36,7 +36,7 @@ BookMark Landing Page é um desafio da plataforma FrontendMentor, que tem o obje
 
 # Link do projeto hospedado
 
-https://bookmarklandingpagefrontendmentor.surge.sh/
+https://bookmarklandingpage.surge.sh/
 
 # Autor
 
